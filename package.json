@@ -1,15 +1,16 @@
 {
-  "name": "project-name",
+  "name": "bose-new-30",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite --host",
-    "build": "vite build --base=/project-name/",
+    "dev": "vite",
+    "build": "vite build --base=/bose-new-30/",
     "preview": "vite preview"
   },
   "devDependencies": {
     "glob": "^8.1.0",
+    "sass": "^1.77.8",
     "vite": "^4.0.5"
   },
   "author": " ",
