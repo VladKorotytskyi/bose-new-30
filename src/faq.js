@@ -5,5 +5,6 @@ faqItems.forEach((item) => {
   const answer = item.querySelector('.faq__answer');
   question.addEventListener('click', () => {
     item.classList.toggle('open');
+    answer.classList.toggle('show'); 
   });
 });
