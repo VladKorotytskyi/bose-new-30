@@ -1,4 +1,5 @@
 .design {
+    padding-top: 170px;
     &__photo {
         width: 590px;
         height: 616px;
@@ -32,7 +33,7 @@
         font-family: Poppins, sans-serif;
         color: #ffffff80;
         font-size: 20px;
-        width: 510px;
+        max-width: 510px;
         font-weight: 400;
         margin-bottom: 40px;
         line-height: 145%;
