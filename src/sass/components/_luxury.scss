@@ -1,0 +1,43 @@
+.luxury {
+    padding-top: 170px;
+
+    &__title {
+        font-family: Poppins, sans-serif;
+        text-transform: uppercase;
+        color: #E7E7E7;
+        font-size: 54px;
+        font-weight: 600;
+        margin-bottom: 50px;
+        text-align: right;
+    }
+
+    &__photo {
+        margin-left: calc(50% - 50vw);
+        margin-right: calc(50% - 50vw);
+        width: 100vw;
+    }
+    &__blok{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 50px;
+    }
+    &__box:nth-child(1){
+        margin-right: 40px;
+    }
+    &__title-text{
+        font-weight: 600;
+        font-family: Poppins, sans-serif;
+        color: #E7E7E7;
+        font-size: 28px;
+        margin-bottom: 20px;
+    }
+    &__text{
+        font-family: Poppins, sans-serif;
+        color: #ffffff80;
+        font-size: 20px;
+        width: 590px;
+        font-weight: 400;
+        line-height: 145%;
+    }
+}
