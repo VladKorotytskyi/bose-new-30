@@ -1,0 +1,45 @@
+// vika
+.bose-nc {
+  padding-top: 170px;
+  padding-bottom: 170px;
+}
+.bose-nc__title {
+  text-transform: uppercase;
+  color: rgba(231, 231, 231, 1);
+  font-size: 54px;
+  font-weight: 600;
+  margin-bottom: 50px;
+}
+.bose-nc__elips-box {
+  display: flex;
+  margin-bottom: 50px;
+}
+.bose-nc__elips {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+.bose-nc__elips:nth-child(1){
+  background-color: rgba(0, 0, 0, 1);
+  border: 2px solid rgba(223, 61, 58, 1);
+}
+.bose-nc__elips:nth-child(2) {
+  background-color: rgb(255, 255, 255);
+  border: 2px solid rgba(255, 255, 255, 0.8);
+  margin-left: 20px;
+}
+.bose-nc__question{
+    display: flex;
+    border-bottom: 4px solid rgba(255, 255, 255, 0.8);
+    margin-top: 26px;
+    margin-bottom: 26px;
+}
+.bose-nc__characteristics{
+    color: rgba(255, 255, 255, 0.8);
+    font-weight: 200;
+    font-size: 16px; 
+}
+.bose-nc__vector{
+    width: 20px;
+    height: 20px;
+}
