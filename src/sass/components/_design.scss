@@ -3,8 +3,7 @@
     &__photo {
         width: 590px;
         height: 616px;
-        margin-left: calc(50% - 50vw);
-        margin-right: calc(50% - 50vw);
+        margin-left: calc(40% - 40vw);
     }
 
     &__blok {
@@ -41,5 +40,6 @@
     &__text-list:hover{
         color: #E7E7E7;
         cursor: context-menu;
+        transition: .6s linear;
     }
 }
