@@ -15,25 +15,30 @@
         font-family: Poppins, sans-serif;
         text-transform: uppercase;
         color: #E7E7E7;
-        font-size: 40px;
-        font-weight: 300;
+        font-size: 54px;
+        font-weight: 600;
         margin-bottom: 50px;
     }
 
     &__text-item {
-        font-weight: 300;
+        font-weight: 600;
         font-family: Poppins, sans-serif;
         color: #E7E7E7;
-        font-size: 18px;
+        font-size: 28px;
         margin-bottom: 20px;
     }
 
     &__text-list {
         font-family: Poppins, sans-serif;
         color: #ffffff80;
-        font-size: 13px;
+        font-size: 20px;
         width: 510px;
+        font-weight: 400;
         margin-bottom: 40px;
         line-height: 145%;
+    }
+    &__text-list:hover{
+        color: #ffffff;
+        cursor: context-menu;
     }
 }
