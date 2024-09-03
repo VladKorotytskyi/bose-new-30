@@ -43,4 +43,26 @@
         cursor: context-menu;
         transition: .6s linear;
     }
+    @media screen and (max-width:1200px){
+        padding-top: 100px;
+        .capable{
+            &__box-item{
+                display: block;
+            }
+            &__title-text{
+                font-size: 30px;
+            }
+            &__text{
+                font-size: 16px;
+            }
+        }
+        
+    }
+    @media screen and (max-width:768px){
+        .capable{
+            padding-top: 52px;
+        }
+
+        
+    }
 }
