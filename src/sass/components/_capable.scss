@@ -27,10 +27,7 @@
     &__box-item{
         display: flex;
         align-items: center;
-        justify-content: center;
-    }
-    &__item:nth-child(1){
-        margin-right: 316px;
+        justify-content: space-between;
     }
     &__text{
         font-family: Poppins, sans-serif;

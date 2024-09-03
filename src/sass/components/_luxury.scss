@@ -17,11 +17,8 @@
     &__blok{
         display: flex;
         align-items: center;
-        justify-content: center;
+        justify-content: space-between;
         margin-top: 50px;
-    }
-    &__box:nth-child(1){
-        margin-right: 40px;
     }
     &__title-text{
         font-weight: 600;
