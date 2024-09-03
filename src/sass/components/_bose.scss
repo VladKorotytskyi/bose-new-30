@@ -41,4 +41,57 @@
         cursor: context-menu;
         transition: .6s linear;
     }
+    @media screen and (max-width:1200px){
+        .bose{
+            padding-top: 100px;
+            &__photo {
+                width: 354px;
+            }
+
+            &__text-title {
+                font-size: 30px;
+            }
+
+            &__text-item {
+                font-size: 20px;
+            }
+
+            &__text-list {
+                font-size: 16px;
+            }
+
+            &__text {
+                margin-right: 60px;
+            }
+        }
+    }
+    @media screen and (max-width:768px){
+        .bose{
+            padding-top: 52px;
+        }
+        &__blok {
+            display: block;
+            align-items: center;
+            justify-content: center;
+        }
+
+        &__text {
+            max-width: 100%;
+            margin: 0 auto;
+        }
+
+        &__photo {
+            width: 350px;
+            height: 293px;
+            margin: 0 auto;
+            margin-top: 32px;
+        }
+        &__text-title {
+            font-size: 24px;
+        }
+
+        &__text-list {
+            font-size: 14px;
+        }
+    }
 }

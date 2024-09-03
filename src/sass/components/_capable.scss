@@ -1,7 +1,7 @@
-.capable{
+.capable {
     padding-top: 170px;
 
-    &__title-text{
+    &__title-text {
         font-family: Poppins, sans-serif;
         text-transform: uppercase;
         color: #E7E7E7;
@@ -9,57 +9,73 @@
         font-weight: 600;
         margin-bottom: 50px;
     }
-    &__red{
+
+    &__red {
         border-radius: 50%;
         background-color: #DF3D3A;
         width: 13px;
         height: 13px;
         margin-right: 24px;
     }
-    &__item{
+
+    &__item {
         display: block;
     }
-    &__list{
+
+    &__list {
         margin-bottom: 20px;
         display: flex;
         align-items: center;
     }
-    &__box-item{
+
+    &__box-item {
         display: flex;
         align-items: center;
         justify-content: space-between;
     }
-    &__text{
+
+    &__text {
         font-family: Poppins, sans-serif;
         color: #ffffff80;
         font-size: 20px;
         font-weight: 400;
     }
-    &__text:hover{
+
+    &__text:hover {
         color: #E7E7E7;
         cursor: context-menu;
         transition: .6s linear;
     }
-    @media screen and (max-width:1200px){
-        padding-top: 100px;
-        .capable{
-            &__box-item{
+
+    @media screen and (max-width:1200px) {
+
+        .capable {
+            padding-top: 100px;
+            &__box-item {
                 display: block;
             }
-            &__title-text{
+
+            &__title-text {
                 font-size: 30px;
             }
-            &__text{
+
+            &__text {
                 font-size: 16px;
             }
         }
-        
-    }
-    @media screen and (max-width:768px){
-        .capable{
-            padding-top: 52px;
-        }
 
-        
+    }
+
+    @media screen and (max-width:768px) {
+        .capable {
+            padding-top: 52px;
+
+            &__title-text {
+                font-size: 24px;
+            }
+            &__text {
+                font-size: 14px;
+            }
+        }
     }
 }
