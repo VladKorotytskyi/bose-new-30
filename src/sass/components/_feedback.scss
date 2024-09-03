@@ -1,3 +1,7 @@
+.feedback{
+  padding-top: 170px;
+  padding-bottom: 170px;
+}
 .feedback__img {
   height: 524px;
 }
@@ -37,12 +41,12 @@
   font-size: 20px;
   line-height: 70%;
   color: rgba(255, 255, 255, 0.3);
+  padding-top: 41.58px;
 }
 .feedback__checkbox {
-  border: 2px solid #e9edfa;
   width: 30px;
-  height: 27px;
-  background-color: transparent;
+  height: 30px;
+  margin-right: 29px;
 }
 .feedback__checkbox-text {
   font-weight: 400;
@@ -68,4 +72,27 @@
   text-transform: uppercase;
   text-align: center;
   color: rgba(255, 255, 255, 0.9);
+  cursor: pointer;
+  transition-property: color, border;
+  transition-duration: 250ms;
+  transition-timing-function: ease;
+}
+.feedback__button:hover,
+.feedback__button:focus{
+  border: 1px solid #FFFFFF;
+  color: #B5302D;
+}
+.feedback__form{
+  display: flex;
+  flex-direction: column;
+}
+.feedback__wrap{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 170px;
+}
+.feedback__form-div{
+  display: flex;
+  margin-top: 53px;
+  margin-bottom: 89px;
 }
