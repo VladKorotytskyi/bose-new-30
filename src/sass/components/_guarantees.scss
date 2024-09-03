@@ -1,22 +1,26 @@
-.guarantees{
-    padding-top: 170px;
-    padding-bottom: 170px;
-    background-image: url(./img/lineimg.png);
-    background-repeat: no-repeat;
-    background-position: right 0 bottom 170px;
+.guarantees {
+  padding-top: 32px;
+  padding-bottom: 52px;
 }
-.guarantees__img {
-  width: 590px;
-  height: 565px;
-}
+// .guarantees{
+//     padding-top: 170px;
+//     padding-bottom: 170px;
+//     background-image: url(./img/lineimg.png);
+//     background-repeat: no-repeat;
+//     background-position: right 0 bottom 170px;
+// }
+// .guarantees__img {
+//   width: 590px;
+//   height: 565px;
+// }
 .guarantees__title {
   font-weight: 600;
-  font-size: 54px;
+  font-size: 24px;
   line-height: 120%;
   letter-spacing: 0.02em;
   text-transform: uppercase;
   color: #e7e7e7;
-  margin-bottom: 50px;
+  margin-bottom: 32px;
 }
 .guarantees__circle {
   border-radius: 100%;
@@ -27,22 +31,75 @@
 }
 .guarantees__subtitle {
   font-weight: 600;
-  font-size: 28px;
+  font-size: 20px;
   line-height: 125%;
   color: #e7e7e7;
-  margin-bottom: 20px;
+  margin-bottom: 16px;
+  width: 170px;
 }
 .guarantees__text {
   font-weight: 400;
-  font-size: 20px;
-  line-height: 145%;
+  font-size: 14px;
+  line-height: 125%;
   color: rgba(255, 255, 255, 0.7);
-  margin-bottom: 69px;
+  margin-bottom: 32px;
 }
-.guarantees__text:last-child{
-    margin-bottom: 0px;
+.guarantees__box {
+  margin-bottom: 24px;
 }
-.guarantees__container{
-    display: flex;
+.guarantees__container {
+  display: flex;
+  flex-direction: column-reverse;
+}
+@media screen and (min-width: 768px) {
+  .guarantees {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  .guarantees__img {
+    width: 354px;
+    height: 442px;
+  }
+  .guarantees__title {
+    font-size: 30px;
+  }
+  .guarantees__subtitle {
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  .guarantees__box {
+    margin-bottom: 55px;
+  }
+  .guarantees__text {
+    font-size: 16px;
+  }
+  .guarantees__container {
+    flex-direction: row;
     justify-content: space-between;
+  }
+}
+@media screen and (min-width:1200px) {
+  .guarantees {
+    padding-top: 170px;
+    padding-bottom: 170px;
+  }
+  .guarantees__img {
+    width: 590px;
+    height: 565px;
+  }
+  .guarantees__title{
+    font-size: 54px;
+    margin-bottom: 50px;
+  }
+  .guarantees__subtitle{
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  .guarantees__text{
+    font-size: 20px;
+    line-height: 145%;
+  }
+  .guarantees__box{
+    margin-bottom: 69px;
+  }
 }
