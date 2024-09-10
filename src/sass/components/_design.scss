@@ -1,11 +1,40 @@
 .design {
     padding-top: 170px;
 
-    &__photo {
-        width: 590px;
-        height: 616px;
+    img{
+        display: block;
+        max-width: 100%;
+        height: auto;
         margin-left: calc(40% - 40vw);
     }
+    &__photo-pix{
+        width: 590px;
+        height: 615px;
+        background-image: url(../img/design.png);
+        background-size: 590px 615px;
+    }
+    @media (min-device-pixel-ratio: 2),
+    (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx){
+        &__photo-pix{
+            background-image: url(../img/design@2x.png);
+        }
+    }
+    @media (min-device-pixel-ratio: 3),
+    (-webkit-min-device-pixel-ratio: 3),
+    (min-resolution: 288dpi),
+    (min-resolution: 3dppx){
+        &__photo-pix{
+            background-image: url(../img/design@3x.png);
+        }
+    }
+
+    // &__photo {
+    //     width: 590px;
+    //     height: 616px;
+    //     margin-left: calc(40% - 40vw);
+    // }
 
     &__blok {
         display: flex;
