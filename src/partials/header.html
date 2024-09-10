@@ -91,18 +91,31 @@
           of playback
         </p>
         <h1 class="header__title">Headphones Bose NC 700</h1>
-        <button class="header__button">Order</button>
+        <button class="header__button btn-open" data-modal-open>Order</button>
       </div>
       <picture>
-        <source srcset="./img/blackbose.png 1x, ./img/blackbose@2x.png 2x" type="image/png">
-        <source srcset="./img/blackbose.webp 1x, ./img/blackbose@2x.webp 2x" type="image/webp">
+        <source
+          srcset="./img/blackbose.png 1x, ./img/blackbose@2x.png 2x"
+          type="image/png"
+        />
+        <source
+          srcset="./img/blackbose.webp 1x, ./img/blackbose@2x.webp 2x"
+          type="image/webp"
+        />
         <img class="header__img" src="./img/blackbose.png" alt="blackBose" />
       </picture>
     </div>
   </div>
 
-
   <!-- modal window -->
-
-  
+  <div class="backdrop is-hidden" data-modal>
+    <div class="modal">
+      <button class="modal-btn" data-modal-close>
+        <svg class="modal-close">
+          <use class="close" href="./img/symbol-defs.svg#icon-close"></use>
+        </svg>
+      </button>
+      <h2 class="modal__title">Thanks for your purchase :)</h2>
+    </div>
+  </div>
 </header>
