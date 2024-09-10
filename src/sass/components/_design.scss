@@ -66,61 +66,66 @@
         margin-left: 150px;
     }
 
-    @media screen and (max-width:1200px) {
-        .design {
-            padding-top: 100px;
+}
+@media screen and (max-width:1200px) {
+    .design {
+        padding-top: 100px;
 
 
-            &__text-title {
-                font-size: 30px;
-            }
+        &__text-title {
+            font-size: 30px;
+        }
 
-            &__text-item {
-                font-size: 20px;
-            }
+        &__text-item {
+            font-size: 20px;
+        }
 
-            &__text-list {
-                font-size: 16px;
-            }
+        &__text-list {
+            font-size: 16px;
+        }
 
-            &__text {
-                margin-left: 60px;
-            }
+        &__text {
+            margin-left: 60px;
+        }
 
-            &__photo-pix {
-                width: 354px;
-                margin: 0 auto;
-            }
+        &__photo-pix {
+            width: 354px;
+            height: auto;
+            background-image: url(../img/design@2x.png);
+            background-size: cover;
         }
     }
+}
 
-    @media screen and (max-width:768px) {
-        .design {
-            padding-top: 52px;
+@media screen and (max-width:768px) {
+    .design {
+        padding-top: 52px;
 
-            &__blok {
-                display: block;
-                align-items: center;
-                justify-content: center;
-            }
+        &__blok {
+            display: block;
+            align-items: center;
+            justify-content: center;
+        }
 
-            &__text {
-                max-width: 100%;
-                margin: 0 auto;
-            }
+        &__text {
+            max-width: 100%;
+            margin: 0 auto;
+            padding-top: 30px;
+        }
 
-            &__photo-pix {
-                width: 280px;
-                // height: 293px;
-                margin: 0 auto;
-            }
-            &__text-title {
-                font-size: 24px;
-            }
+        &__photo-pix {
+            width: 350px;
+            height: 293px;
+            margin: 0 auto;
+            background-image: url(../img/design@3x.png);
+            background-size: cover;
+        }
+        &__text-title {
+            font-size: 24px;
+        }
 
-            &__text-list {
-                font-size: 14px;
-            }
+        &__text-list {
+            font-size: 14px;
         }
     }
 }

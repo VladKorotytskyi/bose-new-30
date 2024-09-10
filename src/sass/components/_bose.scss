@@ -3,6 +3,7 @@
 
     &__photo-pix{
         width: 700px;
+        height: 586px;
         background-image: url(../img/bose.png);
         background-size: cover;
     }
@@ -58,58 +59,69 @@
         cursor: context-menu;
         transition: .6s linear;
     }
-    @media screen and (max-width:1200px){
-        .bose{
-            padding-top: 100px;
-            &__photo {
-                width: 354px;
-            }
+}
+@media screen and (max-width:1200px){
+    .bose{
+        padding-top: 100px;
+        &__photo {
+            width: 354px;
+        }
 
-            &__text-title {
-                font-size: 30px;
-            }
+        &__text-title {
+            font-size: 30px;
+        }
 
-            &__text-item {
-                font-size: 20px;
-            }
+        &__text-item {
+            font-size: 20px;
+        }
 
-            &__text-list {
-                font-size: 16px;
-            }
+        &__text-list {
+            font-size: 16px;
+        }
 
-            &__text {
-                margin-right: 60px;
-            }
+        &__text {
+            margin-right: 60px;
+        }
+
+        &__photo-pix{
+            width: 354px;
+            height: auto;
+            background-image: url(../img/bose@2x.png);
+            background-size: cover;
         }
     }
-    @media screen and (max-width:768px){
-        .bose{
-            padding-top: 52px;
-        }
+}
+@media screen and (max-width:768px){
+    .bose{
+        padding-top: 52px;
+
         &__blok {
             display: block;
             align-items: center;
             justify-content: center;
         }
-
+    
         &__text {
             max-width: 100%;
             margin: 0 auto;
         }
-
+    
         &__photo-pix{
             width: 350px;
-            // height: 293px;
+            height: 293px;
+            background-image: url(../img/bose@3x.png);
+            background-size: cover;
             margin: 0 auto;
             margin-top: 32px;
         }
-
+    
         &__text-title {
             font-size: 24px;
         }
-
+    
         &__text-list {
             font-size: 14px;
         }
+
     }
 }
