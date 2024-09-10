@@ -1,40 +1,27 @@
 .bose {
     padding-top: 170px;
 
-    img{
-        display: block;
-        max-width: 100%;
-        height: auto;
-        margin-right: calc(40% - 40vw);
-    }
-    &__photo-pix-one{
+    &__photo-pix{
         width: 700px;
-        height: 586px;
-        background-image: url(../img/bose-two.png);
-        background-size: 700px 586px;
+        background-image: url(../img/bose.png);
+        background-size: cover;
     }
     @media (min-device-pixel-ratio: 2),
     (-webkit-min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx){
-        &__photo-pix-one{
-            background-image: url(../img/bose-two@2x.png);
+        &__photo-pix{
+            background-image: url(../img/bose@2x.png);
         }
     }
     @media (min-device-pixel-ratio: 3),
     (-webkit-min-device-pixel-ratio: 3),
     (min-resolution: 288dpi),
     (min-resolution: 3dppx){
-        &__photo-pix-one{
-            background-image: url(../img/bose-two@3x.png);
+        &__photo-pix{
+            background-image: url(../img/bose@3x.png);
         }
     }
-
-    // &__photo {
-    //     width: 700px;
-    //     height: 586px;
-    //     margin-right: calc(40% - 40vw);
-    // }
 
     &__blok {
         display: flex;
@@ -110,12 +97,13 @@
             margin: 0 auto;
         }
 
-        &__photo {
+        &__photo-pix{
             width: 350px;
-            height: 293px;
+            // height: 293px;
             margin: 0 auto;
             margin-top: 32px;
         }
+
         &__text-title {
             font-size: 24px;
         }
