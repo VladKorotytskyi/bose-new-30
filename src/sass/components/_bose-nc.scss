@@ -172,6 +172,11 @@
     padding-bottom: 22px;
     width: 100%;
   }
+  .bose-nc__wrapper{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+  }
 }
 
 // .bose-nc__box-two{
