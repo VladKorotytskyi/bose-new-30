@@ -1,17 +1,11 @@
 .design {
     padding-top: 170px;
 
-    img{
-        display: block;
-        max-width: 100%;
-        height: auto;
-        margin-left: calc(40% - 40vw);
-    }
     &__photo-pix{
         width: 590px;
-        height: 615px;
+        
         background-image: url(../img/design.png);
-        background-size: 590px 615px;
+        background-size: cover;
     }
     @media (min-device-pixel-ratio: 2),
     (-webkit-min-device-pixel-ratio: 2),
@@ -29,12 +23,6 @@
             background-image: url(../img/design@3x.png);
         }
     }
-
-    // &__photo {
-    //     width: 590px;
-    //     height: 616px;
-    //     margin-left: calc(40% - 40vw);
-    // }
 
     &__blok {
         display: flex;
@@ -82,9 +70,6 @@
         .design {
             padding-top: 100px;
 
-            &__photo {
-                width: 354px;
-            }
 
             &__text-title {
                 font-size: 30px;
@@ -100,6 +85,11 @@
 
             &__text {
                 margin-left: 60px;
+            }
+
+            &__photo-pix {
+                width: 354px;
+                margin: 0 auto;
             }
         }
     }
@@ -119,9 +109,9 @@
                 margin: 0 auto;
             }
 
-            &__photo {
-                width: 350px;
-                height: 293px;
+            &__photo-pix {
+                width: 280px;
+                // height: 293px;
                 margin: 0 auto;
             }
             &__text-title {
