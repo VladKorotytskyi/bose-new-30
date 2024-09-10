@@ -1,25 +1,27 @@
 .bose {
     padding-top: 170px;
 
-    &__photo-pix{
+    &__photo-pix {
         width: 700px;
         height: 586px;
         background-image: url(../img/bose.png);
         background-size: cover;
     }
+
     @media (min-device-pixel-ratio: 2),
     (-webkit-min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
-    (min-resolution: 2dppx){
-        &__photo-pix{
+    (min-resolution: 2dppx) {
+        &__photo-pix {
             background-image: url(../img/bose@2x.png);
         }
     }
+
     @media (min-device-pixel-ratio: 3),
     (-webkit-min-device-pixel-ratio: 3),
     (min-resolution: 288dpi),
-    (min-resolution: 3dppx){
-        &__photo-pix{
+    (min-resolution: 3dppx) {
+        &__photo-pix {
             background-image: url(../img/bose@3x.png);
         }
     }
@@ -54,15 +56,18 @@
         width: 380px;
         line-height: 145%;
     }
-    &__text-list:hover{
+
+    &__text-list:hover {
         color: #E7E7E7;
         cursor: context-menu;
         transition: .6s linear;
     }
 }
-@media screen and (max-width:1200px){
-    .bose{
+
+@media screen and (max-width:1200px) {
+    .bose {
         padding-top: 100px;
+
         &__photo {
             width: 354px;
         }
@@ -83,7 +88,7 @@
             margin-right: 60px;
         }
 
-        &__photo-pix{
+        &__photo-pix {
             width: 354px;
             height: auto;
             background-image: url(../img/bose@2x.png);
@@ -91,8 +96,9 @@
         }
     }
 }
-@media screen and (max-width:768px){
-    .bose{
+
+@media screen and (max-width:768px) {
+    .bose {
         padding-top: 52px;
 
         &__blok {
@@ -100,13 +106,13 @@
             align-items: center;
             justify-content: center;
         }
-    
+
         &__text {
             max-width: 100%;
             margin: 0 auto;
         }
-    
-        &__photo-pix{
+
+        &__photo-pix {
             width: 350px;
             height: 293px;
             background-image: url(../img/bose@3x.png);
@@ -114,11 +120,11 @@
             margin: 0 auto;
             margin-top: 32px;
         }
-    
+
         &__text-title {
             font-size: 24px;
         }
-    
+
         &__text-list {
             font-size: 14px;
         }
