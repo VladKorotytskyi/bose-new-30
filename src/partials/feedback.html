@@ -2,7 +2,11 @@
 <!-- + фото попереду -->
  <section class="feedback">
     <div class="container">
-        <img class="feedback__img" src="./img/freebackimg.png" alt="feedbackImg">
+        <picture>
+            <source srcset="./img/freebackimg.png 1x, .img/freebackimg@2x.png 2x" type="image/png">
+            <source srcset="./img/freebackimg.webp 1x, ./img/freebackimg@2x.webp 2x" type="image/png">
+            <img class="feedback__img" src="./img/freebackimg.png" alt="feedbackImg">
+        </picture>
         <div class="feedback__wrap">
             <div class="feedback__box">
                 <h2 class="feedback__title">Feedback</h2>

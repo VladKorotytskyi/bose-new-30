@@ -1,37 +1,104 @@
 <!-- vlad -->
- <header class="header">
-    <div class="container">
-        <div class="header__wrap">
-                <a href="index.html"><img class="header__logo" src="./img/boselogo.png" alt="logo"></a>
-                <button class="menu-button js-open-menu" aria-expanded="false" aria-controls="mobile-menu">
-                    <svg class="menu-button__open">
-                        <use href="./img/symbol-defs.svg#icon-hamburger"></use>
-                    </svg>
-                </button>
-                <div class="menu-container js-menu-container" id="mobile-menu">
-                    <button class="menu-button js-close-menu">
-                        <svg class="menu-button__close">
-                            <use href="./img/symbol-defs.svg#icon-close"></use>
-                        </svg>
-                    </button>
-                    </div>
+<header class="header">
+  <div class="container">
+    <div class="header__wrap">
+      <a href="index.html"
+        ><picture>
+          <source
+            srcset="./img/boselogo.png 1x, ./img/boselogo@2x.png 2x"
+            type="image/png"
+          />
+          <source
+            srcset="./img/boselogo.webp 1x, ./img/boselogo@2x.webp 2x"
+            type="image/webp"
+          />
+          <img
+            class="header__logo"
+            src="./img/boselogo.png"
+            alt="boselogo"
+          /> </picture
+      ></a>
+      <button
+        class="menu-button js-open-menu"
+        aria-expanded="false"
+        aria-controls="mobile-menu"
+      >
+        <svg class="menu-button__open">
+          <use href="./img/symbol-defs.svg#icon-hamburger"></use>
+        </svg>
+      </button>
+      <div class="menu-container js-menu-container" id="mobile-menu">
+        <button class="menu-button js-close-menu">
+          <svg class="menu-button__close">
+            <use href="./img/symbol-defs.svg#icon-close"></use>
+          </svg>
+        </button>
         <nav class="header__navigation">
-            <ul class="header__list">
-                <li class="header__item"><a class="header__link" href="#">Characteristics</a></li>
-                <li class="header__item"><a class="header__link" href="#">History</a></li>
-                <li class="header__item"><a class="header__link" href="#">Reviews</a></li>
-                <li class="header__item"><a class="header__link" href="#">Payment and delivery</a></li>
-            </ul>
+          <a href="index.html"
+            ><picture>
+              <source
+                srcset="./img/boselogo.png 1x, ./img/boselogo@2x.png 2x"
+                type="image/png"
+              />
+              <source
+                srcset="./img/boselogo.webp 1x, ./img/boselogo@2x.webp 2x"
+                type="image/webp"
+              />
+              <img
+                class="header__mobile-logo"
+                src="./img/boselogo.png"
+                alt="boselogo"
+              /> </picture
+          ></a>
+          <ul class="header__list">
+            <li class="header__item">
+              <a class="header__link" href="#">Characteristics</a>
+            </li>
+            <li class="header__item">
+              <a class="header__link" href="#">History</a>
+            </li>
+            <li class="header__item">
+              <a class="header__link" href="#">Reviews</a>
+            </li>
+            <li class="header__item">
+              <a class="header__link" href="#">Payment and delivery</a>
+            </li>
+          </ul>
         </nav>
-        </div>
-        <div class="header__box">
-            <div class="header__wrapper">
-                <p class="header__text">Noise cancellation headphones <br> that are capable for a lot of things</p>
-                <p class="header__text">Up to 20 hours <br> of playback</p>
-                <h1 class="header__title">Headphones Bose NC 700</h1>
-                <button class="header__button">Order</button>
-            </div>
-        <img class="header__img" src="./img/blackbose.png" alt="blackBose">
-        </div>   
+      </div>
+      <ul class="header__list-two">
+        <li class="header__item">
+          <a class="header__link" href="#">Characteristics</a>
+        </li>
+        <li class="header__item">
+          <a class="header__link" href="#">History</a>
+        </li>
+        <li class="header__item">
+          <a class="header__link" href="#">Reviews</a>
+        </li>
+        <li class="header__item">
+          <a class="header__link" href="#">Payment and delivery</a>
+        </li>
+      </ul>
     </div>
- </header>
+    <div class="header__box">
+      <div class="header__wrapper">
+        <p class="header__text">
+          Noise cancellation headphones <br />
+          that are capable for a lot of things
+        </p>
+        <p class="header__text">
+          Up to 20 hours <br />
+          of playback
+        </p>
+        <h1 class="header__title">Headphones Bose NC 700</h1>
+        <button class="header__button">Order</button>
+      </div>
+      <picture>
+        <source srcset="./img/blackbose.png 1x, ./img/blackbose@2x.png 2x" type="image/png">
+        <source srcset="./img/blackbose.webp 1x, ./img/blackbose@2x.webp 2x" type="image/webp">
+        <img class="header__img" src="./img/blackbose.png" alt="blackBose" />
+      </picture>
+    </div>
+  </div>
+</header>
