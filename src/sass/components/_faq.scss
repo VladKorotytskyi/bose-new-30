@@ -20,13 +20,15 @@
   margin-right: 20px;
 }
 .faq__mark {
-  font-size: 20px;
   font-weight: 400;
   color: rgba(231, 231, 231, 1);
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
-  padding: 9px 19px;
-  margin-left: auto;
+  min-width: 35px;
+  display: flex;
+  height: 35px;
+  align-items: center;
+  justify-content: center;
   cursor: pointer;
   transition-property: transform, box-shadow, border-radius;
   transition-duration: 3000ms;
@@ -61,7 +63,7 @@
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
-  padding: 24px;
+  padding: 24px 10px;
   background-color: transparent;
   font-weight: 600;
   font-size: 16px;
@@ -107,6 +109,18 @@
   }
   .faq__item {
     margin-bottom: 108px;
+  }
+  .faq__mark {
+    font-size: 20px;
+    min-width: 50px;
+    display: flex;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    cursor: pointer;
+    transition-property: transform, box-shadow, border-radius;
+    transition-duration: 3000ms;
   }
 }
 @media screen and (min-width: 1200px) {
