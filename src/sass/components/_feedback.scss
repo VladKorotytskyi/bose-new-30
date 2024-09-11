@@ -34,6 +34,7 @@
   width: 280px;
   padding-top: 32px;
 }
+
 .feedback__textarea {
   resize: none;
   background-color: transparent;
@@ -64,6 +65,13 @@
   line-height: 125%;
   color: rgba(255, 255, 255, 0.7);
   text-decoration: underline;
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: ease;
+}
+.feedback__checkbox-link:hover,
+.feedback__checkbox-link:focus{
+  color: #df3d3a;
 }
 .feedback__button {
   width: 280px;
@@ -75,6 +83,9 @@
   color: rgba(255, 255, 255, 0.9);
   background-color: transparent;
   border: 1px solid #df3d3a;
+  transition-property: border, color;
+  transition-duration: 350ms;
+  transition-timing-function: ease;
 }
 .feedback__button:hover,
 .feedback__button:focus {
