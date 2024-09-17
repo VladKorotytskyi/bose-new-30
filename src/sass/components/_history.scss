@@ -79,5 +79,6 @@
     .history__content{
         display: flex;
         gap: 50px;
+        flex-direction: column;
     }
 }
