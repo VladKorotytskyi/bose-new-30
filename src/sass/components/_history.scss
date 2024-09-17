@@ -1,3 +1,8 @@
+
+.history__content {
+    display: flex;
+}
+
 .history__left-title {
     font-family: "Gilroy", sans-serif;
     font-weight: 600;
@@ -6,4 +11,36 @@
     letter-spacing: 0.02em;
     text-transform: uppercase;
     color: #e7e7e7;
+}
+
+.history__left-text {
+    font-family: "Gilroy", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 145%;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.history__right-text {
+    font-family: "Gilroy", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 145%;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.history__right-title {
+    font-family: "Gilroy", sans-serif;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 125%;
+    color: #e7e7e7;
+}
+
+.history__right-subtitle {
+    font-family: "Gilroy", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 70%;
+    color: rgba(255, 255, 255, 0.4);
 }
