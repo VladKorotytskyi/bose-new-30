@@ -245,7 +245,7 @@
   transition-timing-function: ease;
   cursor: pointer;
   margin-top: 12px;
-  margin-left: 12px;
+  margin-left: 238px;
 }
 .modal-close {
   width: 24px;
@@ -259,6 +259,7 @@
   text-align: center;
   color: white;
   font-size: 40px;
+  margin-top: 80px;
 }
 @media screen and (min-width: 768px) {
   .modal {
@@ -267,5 +268,9 @@
   }
   .modal__title {
     font-size: 60px;
+    margin-top: 160px;
+  }
+  .modal-btn{
+    margin-left: 485px;
   }
 }
