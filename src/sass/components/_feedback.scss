@@ -70,7 +70,7 @@
   transition-timing-function: ease;
 }
 .feedback__checkbox-link:hover,
-.feedback__checkbox-link:focus{
+.feedback__checkbox-link:focus {
   color: #df3d3a;
 }
 .feedback__button {
@@ -86,6 +86,7 @@
   transition-property: border, color;
   transition-duration: 350ms;
   transition-timing-function: ease;
+  cursor: pointer;
 }
 .feedback__button:hover,
 .feedback__button:focus {
@@ -156,5 +157,6 @@
   .feedback__button {
     width: 510px;
     height: 68px;
+    cursor: pointer;
   }
 }
