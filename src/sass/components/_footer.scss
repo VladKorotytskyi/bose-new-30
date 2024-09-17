@@ -38,25 +38,27 @@
      display: block;
      margin-bottom: 24px;
     }
+}   .footer__links{
+    margin-right: 130px;
 }
 
 @media screen and (min-width:1200px) {
     .footer {
-        height: 130px;
-
+   padding-bottom: 40px;
+   padding-top: 70px;
     }
-
+    .footer__num{
+        margin-bottom: 0px;
+    }
     .footer__content {
         display: flex;
-        flex-direction: row;
         align-items: center;
-     height: 130px;
-
+     
     }
 
     .footer__links {
         display: flex;
-        flex-direction: row;
+        margin-right: 0;
     }
 
     .footer__links-two {
