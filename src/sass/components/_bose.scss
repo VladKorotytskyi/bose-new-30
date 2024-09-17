@@ -89,7 +89,8 @@
         }
 
         &__photo-pix {
-            width: 354px;
+            width: 568px;
+            height: 450px;
             height: auto;
             background-image: url(../img/bose@2x.png);
             background-size: cover;
@@ -103,8 +104,6 @@
 
         &__blok {
             display: block;
-            align-items: center;
-            justify-content: center;
         }
 
         &__text {
