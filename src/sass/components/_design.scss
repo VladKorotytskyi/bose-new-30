@@ -96,6 +96,7 @@
             height: auto;
             background-image: url(../img/design@2x.png);
             background-size: cover;
+            background-position: -50px;
         }
     }
 }
@@ -118,11 +119,12 @@
         }
 
         &__photo-pix {
-            width: 350px;
+            width: 314px;
             height: 293px;
             margin: 0 auto;
             background-image: url(../img/design@3x.png);
             background-size: cover;
+            background-position: 0;
         }
 
         &__text-title {
