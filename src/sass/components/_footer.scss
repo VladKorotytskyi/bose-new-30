@@ -31,10 +31,12 @@
         display: flex;
         justify-content: space-between;
         align-items: end;
+        padding-bottom: 36px;
     }
 
     .footer__num {
-        height: 19px;
+     display: block;
+     margin-bottom: 24px;
     }
 }
 
